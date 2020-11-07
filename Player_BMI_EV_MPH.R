@@ -134,11 +134,3 @@ pitch_velo_bmi_plot<-
         axis.title = element_text(size=15))+
   geom_text(x=37.5, y=85, label='r^2=0.009', size=10)
 pitch_velo_bmi_plot
-
-
-y<-c(3,5.236,7.472,9.708)
-x<-c(1,2,3,4)
-ab<-data.frame(y,x)
-ab <- ab%>%
-  mutate(c=y-2*x)
-sapply(ab,var)
