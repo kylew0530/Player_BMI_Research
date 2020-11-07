@@ -1,4 +1,4 @@
-#Please read README for explanation on this code. These tables come from scraped Baseball Savant data and personal sql database from it#
+#Please read README for explanation on this code. These tables come from scraped Baseball Savant data and the personal sql database I dumped it into#
 use baseball;
 
 #Getting Hitter Data#
